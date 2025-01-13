@@ -37,25 +37,25 @@ function addNumbers() {
   numberOne = Number(input1.value);
   numberTwo = Number(input2.value);
   addition = numberOne + numberTwo;
-  answer.innerHTML = "They come too " + addition;
+  answer.innerHTML = "Answer = " + addition;
 }
 function subNumbers() {
   numberOne = Number(input1.value);
   numberTwo = Number(input2.value);
   addition = numberOne - numberTwo;
-  answer.innerHTML = "They come too " + addition;
+  answer.innerHTML = "Answer = " + addition;
 }
 function multNumbers() {
   numberOne = Number(input1.value);
   numberTwo = Number(input2.value);
   addition = numberOne * numberTwo;
-  answer.innerHTML = "They come too " + addition;
+  answer.innerHTML = "Answer = " + addition;
 }
 function divNumbers() {
   numberOne = Number(input1.value);
   numberTwo = Number(input2.value);
   addition = numberOne / numberTwo;
-  answer.innerHTML = "They come too " + addition;
+  answer.innerHTML = "Answer = " + addition;
 }
 buttonAdd.addEventListener("click", addNumbers);
 buttonSub.addEventListener("click", subNumbers);
